@@ -102,6 +102,10 @@ dd{
   width:100%;
 }
 
+#contact h2{
+  display:none;
+}
+
 
 footer{
   background:#24292e;
