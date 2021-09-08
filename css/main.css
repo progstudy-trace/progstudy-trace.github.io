@@ -1,0 +1,112 @@
+/* スマホ画面 */
+
+/* 共通 */
+.container{
+  max-width:960px;
+  margin:0 auto;
+  padding:0 10px;
+}
+.pc{
+  display:none;
+}
+.flex{
+  display:flex;
+}
+a{
+  text-decoration: none;
+  color:#24292e;
+}
+.fadein {
+  opacity : 0;
+  transform: translateY(20px);
+  transition: all 1s;
+}
+
+
+/* ヘッダー */
+header{
+  text-align: center;
+}
+h1{
+  font-size:25px;
+  padding-top:30px;
+}
+nav ul{
+  width:230px;
+  margin:20px auto;
+  justify-content: space-between;
+  font-size:13px;
+}
+
+
+/* メインビジュアル */
+#mainvisual{
+  height:420px;
+  background-image:url(../img/mv-sp.jpg);
+  background-size:cover;
+}
+
+/* セクション共通 */
+section{
+  font-size:14px;
+  line-height:1.5;
+}
+h2{
+  font-size:24px;
+  text-align:center;
+  margin:100px 0 40px 0;
+}
+h3{
+  font-family: serif;
+  font-weight:bold;
+  margin-bottom:13px;
+  font-size:18px;
+}
+
+
+/* About */
+dt,dd{
+  font-size:12px;
+}
+dd{
+  margin-bottom:5px;
+}
+.about-right{
+  margin-left:30px;
+}
+
+#about p{
+  margin-top:30px;
+}
+
+/* Skill */
+.skill-box{
+  text-align: center;
+}
+.skill-box i{
+  font-size:100px;
+}
+.skill-box p{
+  text-align: left;
+}
+.skill-box p{
+  margin:20px 0 60px 0;
+}
+
+/* Works */
+.works-box{
+  margin-bottom:40px;
+  text-align:center;
+}
+.works-box img{
+  width:100%;
+}
+
+
+footer{
+  background:#24292e;
+  color:#fff;
+  text-align:center;
+  font-size:10px;
+  padding:10px 0;
+}
