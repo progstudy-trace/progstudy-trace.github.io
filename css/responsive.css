@@ -67,6 +67,7 @@
   .works-wrap{
     display:flex;
     justify-content: space-between;
+    flex-wrap: wrap;
   }
   .works-box{
     width:32%;

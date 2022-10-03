@@ -114,3 +114,13 @@ footer{
   font-size:10px;
   padding:10px 0;
 }
+
+
+/*WorksのWordPressのリンク先*/
+.portfolio-img{
+  text-align: center;
+}
+
+.portfolio-img img{
+  max-width: 100%;
+}
