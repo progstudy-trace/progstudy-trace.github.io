@@ -74,4 +74,13 @@
   }
 
 
+/*WorksのWordPressのリンク先*/
+
+
+.portfolio-img img{
+  max-width: 60%;
+  margin:50px 0;
+}
+
+
 }

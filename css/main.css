@@ -122,5 +122,7 @@ footer{
 }
 
 .portfolio-img img{
-  max-width: 100%;
+  max-width: 85%;
+  margin:25px 0;
+  box-shadow: 0 0 10px #ccc;
 }
